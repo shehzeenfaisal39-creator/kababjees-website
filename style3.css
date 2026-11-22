@@ -1,0 +1,744 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: "Poppins", sans-serif;
+}
+
+.border img {
+    width: 100%;
+   
+}
+
+.navbar {
+    width: 90%;
+    height: 80px;
+    margin: 40px auto;
+    padding: 0 20px;
+    background-color: #EEEEEE;
+    border: 1px solid rgb(182, 180, 180);
+    border-radius: 50px;
+    display: flex;
+    align-items: center; 
+    gap: 10px;  
+    max-width: 1500px; 
+            
+}
+
+
+.input {
+    width: 200px;
+    height: 45px;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;      
+    align-items: center; 
+    gap: 6px;
+}
+
+
+.set {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.heading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.2;
+    color: #000;
+}
+
+
+.select {
+    width: 140px;
+    border: none;
+    background-color: #EEEEEE;
+    color: red;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+
+.option {
+    color: grey;
+}
+
+
+.two {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    font-size: 30px;
+    color: rgb(150, 150, 150);
+    font-weight: 300;
+    /* background-color: lightblue; */
+    
+}
+
+
+.mobile img {
+    width: 35px;
+    height: 35px;
+
+}
+
+
+.nav-item {
+    border: none;
+    /* background-color: plum; */
+}
+
+.mobile {
+    border: none;
+    
+    
+}
+
+.no {
+   font-size: 13px;
+}
+
+.logo img {
+    width: 180px;
+}
+
+.logo {
+ margin: 0 auto;  
+ position: relative;
+ bottom: 18px;
+}
+
+
+
+
+.box {
+    display: flex;
+    background-color: white;
+    align-self: center;
+    border: 2px solid pink;
+    width: 250px;
+    border-radius: 10px;
+    padding:5px;
+    margin-left: auto;
+
+}
+
+.text p {
+    font-size: 13px;
+}
+
+.icp {
+    display: flex;
+}
+
+.text p {
+    font-size: 10px;
+      font-family: "Poppins", sans-serif;
+      color: grey;
+      position: relative;
+      bottom: 3px;
+}
+
+.text h4 {
+      font-family: "Poppins", sans-serif;
+}
+
+.icons {
+align-self: center;
+}
+
+.complaint {
+    display: flex;
+
+}
+
+.secondline {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo {
+  align-self: center; 
+  position: relative;
+  left: 18px;
+   
+}
+
+
+.navbar {
+    position: relative;   
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: -15px auto ;   
+    width: 180px;           
+}
+
+.banner > img {
+    width: 96%;
+    border-radius: 30px;
+}
+
+.banner {
+    text-align: center;
+}
+/* the section right after the banner */
+.cards {
+    display: flex;
+    margin: 30px auto;
+   /* background-color: aqua; */
+    gap: 13px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.card {
+    text-align: center;
+    color: #e42b2b;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 1.2rem;
+    font-size: 1rem;
+}
+/* it is the main div for the search bar including button */
+.search {
+    display: flex;
+    justify-content: center;
+    margin: 80px auto;
+}
+
+.search > input {
+    width:1100px ;
+    padding: 20px 15px 20px 15px;
+    border-radius: 30px;
+    border: 1px solid rgb(182, 180, 180);
+    box-shadow: 12px 12px 12px #EEEEEE;
+    margin-left: 30px;
+}
+
+.button {
+    background-color: #e42b2b;
+   padding: 9px 11px 9px 11px;
+   color: white;
+  border-radius: 50%;
+  
+}
+/* button is inside this div */
+.two {
+   /* background-color:blue; */
+   position: relative;
+   right: 50px;
+}
+
+.popular h2{
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+
+.popular {
+    display: flex;
+    /* background-color: aqua; */
+    width: 1250px;
+    margin: 0px auto;
+}
+
+.fire {
+    font-size:1.5rem;
+    align-self: center;
+}
+
+.popular p {
+     font-family: "Poppins", sans-serif;
+     position: relative;
+     bottom: 5px;
+}
+
+.chips  {
+ display: flex;
+ width: 100%;
+justify-content: center;
+gap: 15px;
+ /* height: 290px; */
+ /* background-color: #e42b2b; */
+ flex-wrap: wrap;
+ margin: 30px auto ;
+ 
+}
+
+.chip img {
+    width: 300px;
+    border-radius: 15px;
+    /* height: 75%; */
+}
+
+.chip {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 400px;
+}
+     
+
+.plus {
+    background-color: #e42b2b;
+   /* width: 30px; */
+   text-align: center;
+ padding: 0.4px 10px 0.4px 10px;
+   color: white;
+   font-size: 32px;
+   font-weight:1000;
+   border-radius:10px;
+   align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+.pb {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    /* background-color: beige; */
+}
+
+.pb p {
+  align-self: flex-start;
+  margin-top: 10px;
+}
+
+.chip h2 {
+    font-family: "Luckiest Guy", cursive;
+  font-weight: 50;
+  font-style: normal;
+  font-size: 1.3rem;
+}
+
+.chip p {
+     font-family: "Luckiest Guy", cursive;
+  font-weight: 50;
+  font-style: normal;
+  font-size: 1rem;
+  color: grey;
+}
+
+.unique {
+   height: 73%;
+}
+
+.unique2 {
+    height: 73%;
+}
+
+
+.banner2 {
+    /* background-color: #e42b2b; */
+    margin-top: 94px;
+    text-align: center;
+    
+}
+
+.banner2 img {
+    width: 802.13px;
+    height: 388.88px;
+}
+
+.arabian p {
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    font-weight: 300;
+
+}
+
+.arabian {
+    border: 1px solid red;
+    padding: 5px;
+    border-radius: 15px;
+    height:450px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+.arabian img {
+    width: 100%;
+}
+
+.ap {
+    height: 65%;
+  width: 500px;
+}
+
+
+.arabimg {
+    height: 65%;
+}
+
+.arabian p {
+    font-size: 0.90rem;
+}
+
+.pb p {
+     font-family: "Luckiest Guy", cursive;
+ font-weight: 500;
+  font-style: normal;
+  font-size: 1rem;
+  color: rgb(29, 28, 28);
+}
+
+.plus2 {
+    position: relative;
+    right:10px;
+    top: 10px;
+}
+
+.pb p {
+    position: relative;
+    left: 8px;
+    top: 12px;
+}
+
+.lastcard {
+    display: flex;
+ justify-content: center;
+   gap: 15px;
+   flex-wrap: wrap;
+}
+
+.lasts {
+    border: none;
+}
+
+.banner3 {
+    text-align: center;
+  margin-top: 20px;
+}
+
+.banner4 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.arabiane {
+    /* background-color: aqua; */
+    position: relative;
+}
+
+.bestseller {
+    position: absolute;
+    top: 0px;
+    /* background-color: aqua; */
+}
+
+.bestseller svg {
+    position: relative;
+    bottom: 13px;
+    right: 20px;
+    
+}
+
+.banner5 {
+    text-align: center;
+  /* background-color: aqua; */
+}
+
+.banner6 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footbanner img {
+   height: 400px;
+}
+
+.footbanner {
+     background: linear-gradient(180deg, #F51C24 0%, #D41017 55%, #A6070D 100%);
+     width: 1300px;
+    margin: 70px auto;
+    height: 370px;
+    border-radius: 50px;
+    position: relative;
+}
+
+.kabab img {
+    position: absolute;
+    right: 50px;
+    z-index: 9999;
+}
+
+.kabab {
+    /* background-color: aqua; */
+    width: 50px;
+}
+
+.mobiles img {
+    width: 250px;
+    height: 450px;
+ position: relative;
+ left: 700px;
+ bottom: 50px;
+}
+
+.order h1 {
+   font-family: "Luckiest Guy", cursive;
+ font-weight: 500;
+  font-style: normal;
+  font-size: 3.5rem;
+  color: white;
+  
+}
+
+.order {
+    /* background-color: aliceblue; */
+   position: absolute;
+   left: 70px;
+   top: 40px;
+}
+
+.p {
+    position: absolute;
+    left: 70px;
+    top:180px;
+    color: white;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.playstore img{
+    width: 180px;
+    height: 50px;
+    position: absolute;
+    left: 270px;
+    top: 280px;
+}
+
+.play2 img {
+    width:180px ;
+    height: 50px;
+    position: absolute;
+    top: 280px;
+    left: 65px;
+}
+
+.head {
+    text-align: center;
+     font-family: "Poppins", sans-serif;
+     font-size: 1.3rem;
+     color: grey;
+}
+
+
+.about {
+    max-width: 950px;
+    margin: 40px auto;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    /* background-color: #ec9d9f; */
+}
+
+
+.title {
+    font-size: 24px;
+    color: #3D3D3D;
+    margin-bottom: 12px;
+}
+
+
+.check {
+    display: none;
+}
+
+
+.text-box {
+    /* background-color: #D41017; */
+    position: relative;
+    max-height: 36px;
+    overflow: hidden;
+    font-size: 15px;
+    color: rgb(63, 62, 62);
+    line-height: 1.5;
+}
+
+
+.fade {
+    background: linear-gradient(transparent, white);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 18px;
+}
+
+
+
+/* 4. Style the Show More button */
+.btn {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+
+.check:checked ~ .text-box {
+    max-height: 500px;
+}
+
+.check:checked ~ .text-box .fade {
+    display: none;
+}
+
+/* Swap "Show More" to "Show Less" */
+.check:checked ~ .btn .show {
+    display: none;
+}
+
+.check:checked ~ .btn .hide {
+    display: inline;
+}
+
+
+.log img {
+    width: 200px;
+    margin-left: 150px;
+   
+}
+
+.footer {
+    display: flex;
+    /* background-color: #A6070D; */
+    gap: 50px;
+    max-width: 1100px;
+    margin: 70px auto;
+}
+
+.vlines {
+    width: 1px;
+    height: 80px;
+   background-color: grey;
+   align-self: center;
+
+}
+
+.contactb {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+ 
+}
+
+.co svg {
+    position: relative;
+    top: 5px;
+}
+
+.lines {
+    background-color: grey;
+    width: 1px;
+    height: 20px;
+}
+
+.contactc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.al {
+    display: flex;
+    gap: 20px;
+}
+
+.liness {
+   background-color: grey;
+    width: 1px;
+    height: 20px;
+    align-self: center;
+}
+
+.heaf h3{
+    position: relative;
+    top: 10px;
+}
+
+.help {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+     font-family: "Poppins", sans-serif;
+     font-size: 15px;
+}
+
+.complain {
+    align-self: flex-end;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.last img {
+    width: 100%;
+}
+
+.red {
+    background-color: #D41017;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    gap: 20px;
+   justify-content: center;
+   align-items: center;
+}
+
+.red img {
+    width: 180px;
+    /* position: absolute;
+    bottom: 20px;
+    left: 450px; */
+}
+
+.lin {
+     background-color: rgb(240, 233, 233);
+    width: 2px;
+    height: 20px;
+}
+
+.privacy a {
+    color: #EEEEEE;
+    font-size:18px ;
+}
+
+
+
